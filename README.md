@@ -13,6 +13,7 @@
     - Exit (/exit)
   - Weather ⛅
   - Ping 🏓
+  - MORE TO COME
 
 |Command   | Syntax   | Description   |
 |:---:|:---|:---|
@@ -52,3 +53,6 @@
   5. node index.js
      - This will monitor slash commands in the server. 
 
+## Current Known Issues
+ - Spotify playlists can only add 100 songs to the queue
+   - Issue has been acknowledged by discord-player team but may look for another way to import spotify playlists.
