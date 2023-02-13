@@ -10,9 +10,11 @@
     - Resume (/resume)
     - Skip (/skip)
     - Queue (/queue)
+    - Bass Boost (/bassboost)
     - Exit (/exit)
   - Weather ⛅
   - Ping 🏓
+  - Nuke ☢️
   - MORE TO COME
 
 |Command   | Syntax   | Description   |
@@ -22,21 +24,13 @@
 | Play search | /play search \<url> | Searches for a song on youtube and then plays it in the current voice channel.
 | Pause | /pause | Pauses currently playing song in queue.
 | Resume | /resume | Resumes playback of the song currently playing / top of queue.
-| Skip | /skip | Skips to the next song in the queue and starts playing tha.
+| Skip | /skip | Skips to the next song in the queue and starts playing that.
 | Queue | /queue | Displays the first ten items present in the queue.
-| Exit | /exit | Will destroy queue and bot exits voice channel
+| Bass Boost | /bassboost <on/off> | Will turn on bass boost filter for music playback.
+| Exit | /exit | Will destroy queue and bot exits voice channel.
 | Weather | /weather \<city> | Will give weather given city name using Weather API
-
-## Libraries/Runtimes Used:
-  - [Node.js](https://nodejs.org/en/)
-  - [Discord.js](https://discord.js.org/#/)
-  - [discord-player](https://discord-player.js.org/)
-  - [axios](https://axios-http.com/docs/intro)
-  - [OpenWeatherMap Weather API](https://openweathermap.org/)
-
-## Other Resources:
-  - https://discordjs.guide/
-  - https://www.youtube.com/watch?v=3Iegimr8Qc0 (computeshorts)
+| Ping | /ping | A basic testing command. You /ping and the bot replies "pong".
+| Nuke | /nuke | Removes all messages in the text channel the command is used in.
 
 ## Instructions:
   1. Git clone
@@ -56,3 +50,14 @@
 ## Current Known Issues
  - Spotify playlists can only add 100 songs to the queue
    - Issue has been acknowledged by discord-player team but may look for another way to import spotify playlists.
+
+## Libraries/Runtimes Used:
+  - [Node.js](https://nodejs.org/en/)
+  - [Discord.js](https://discord.js.org/#/)
+  - [discord-player](https://discord-player.js.org/)
+  - [axios](https://axios-http.com/docs/intro)
+  - [OpenWeatherMap Weather API](https://openweathermap.org/)
+
+## Other Resources:
+  - https://discordjs.guide/
+  - https://www.youtube.com/watch?v=3Iegimr8Qc0 (computeshorts)
